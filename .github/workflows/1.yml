@@ -1,5 +1,4 @@
 
-
 name: Azure Login Workflow
 
 on:
@@ -21,9 +20,10 @@ jobs:
       - name: Azure Login
         uses: Azure/login@v3
         with:
-          client-id: 80f89cf5-0780-444d-a6af-9f23370d3edd
-          tenant-id: e8ef4a60-5f6d-48fc-835c-b3593ca741f4
-          subscription-id: bcf709a7-1c91-482e-8d8c-ef07cf579330
+          client-id: '80f89cf5-0780-444d-a6af-9f23370d3edd'
+          tenant-id: 'e8ef4a60-5f6d-48fc-835c-b3593ca741f4'
+          subscription-id: 'bcf709a7-1c91-482e-8d8c-ef07cf579330'
+
 
 
    
