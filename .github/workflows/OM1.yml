@@ -14,3 +14,10 @@ jobs:
 
       - name: Verify Login
         run: az account show
+
+      - name: terraformInit
+        run : terraform init
+        
+      - name: terraformInit
+        run : terraform Plan
+        
